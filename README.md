@@ -90,6 +90,9 @@
 
 - [ ] 設定したイベントリスナーが適切なタイミングで解除されているか（addEventListener, removeEventListener 等）
 
+### CSS
+- [ ] `@import`が使われていないか（直列でソースをLoadするためパフォーマンス上好ましくない）
+
 ### HTML
 
 - [ ] 押下時の動作が設定されているボタンは、div, span 要素ではなく a, button もしくは input 要素でマークアップされているか
